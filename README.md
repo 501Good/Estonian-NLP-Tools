@@ -19,5 +19,10 @@
             <td>99.2%</td>
             <td>90.39%</td>
         </tr>
+        <tr>
+            <td>LSTM v2.3</td>
+            <td>99.4%</td>
+            <td>89.62%</td>
+        </tr>
     </tbody>
 </table>
