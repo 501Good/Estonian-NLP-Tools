@@ -21,8 +21,8 @@
         </tr>
         <tr>
             <td>LSTM v2.3</td>
-            <td>99.4%</td>
-            <td>89.62%</td>
+            <td>99.94%</td>
+            <td>90.22%</td>
         </tr>
     </tbody>
 </table>
