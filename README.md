@@ -16,11 +16,6 @@
         </tr>
         <tr>
             <td>LSTM</td>
-            <td>99.2%</td>
-            <td>90.39%</td>
-        </tr>
-        <tr>
-            <td>LSTM v2.3</td>
             <td>99.94%</td>
             <td>90.22%</td>
         </tr>
