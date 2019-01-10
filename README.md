@@ -1,5 +1,16 @@
 # Estonian-NLP-Tools
 
+## Tokenizer
+
+The tokenizer uses a bidirectional LSTM model trained on the [Estonian UD corpus v2.3](https://github.com/UniversalDependencies/UD_Estonian-EDT). 
+
+The corpus was cut into the chunks of five sentences. Each chunk is then was transformed into a sequence of tags for each character: X - out of token, E - end of token, T - end of sentence. 
+End of token and end of sentence tags are placed on the last character of a word/sentence. 
+
+The model was trained until it showed no improvement in validation loss for five consecutive epochs (120 epochs in total).
+
+The F1-score reported by the official UD evaluation script is shown in the table below:
+
 <table>
     <thead>
         <tr>
