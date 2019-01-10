@@ -11,8 +11,8 @@
     <tbody>
         <tr>
             <td>UDPipe</td>
-            <td>100.0%</td>
-            <td>91.7%	</td>
+            <td>99.95%</td>
+            <td>91.72%	</td>
         </tr>
         <tr>
             <td>LSTM</td>
