@@ -1,3 +1,3 @@
-__pycache__/
-.vscode/
-est_tokenization/
+tokenization/__pycache__/
+tokenization/.vscode/
+tokenization/est_tokenization/

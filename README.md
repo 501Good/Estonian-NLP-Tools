@@ -30,5 +30,10 @@ The F1-score reported by the official UD evaluation script is shown in the table
             <td>99.94%</td>
             <td>90.22%</td>
         </tr>
+        <tr>
+            <td>ESTNLTK</td>
+            <td>99.12%</td>
+            <td>85.56%</td>
+        </tr>
     </tbody>
 </table>
