@@ -37,3 +37,33 @@ The F1-score reported by the official UD evaluation script is shown in the table
         </tr>
     </tbody>
 </table>
+
+
+Scores on the test set from the Ettenten corpus: 
+
+<table>
+    <thead>
+        <tr>
+            <th>Model</th>
+            <th>Words</th>
+            <th>Sents</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>UDPipe</td>
+            <td>96.02%</td>
+            <td>61.38%</td>
+        </tr>
+        <tr>
+            <td>LSTM</td>
+            <td>95.89%</td>
+            <td>88.59%</td>
+        </tr>
+        <tr>
+            <td>ESTNLTK</td>
+            <td>97.41%</td>
+            <td>54.00%</td>
+        </tr>
+    </tbody>
+</table>
