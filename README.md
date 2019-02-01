@@ -67,3 +67,66 @@ Scores on the test set from the Ettenten corpus:
         </tr>
     </tbody>
 </table>
+
+## Training on Ettenten corpus
+
+For the training set, I randomly picked one document from each file, because otherwise the training set becomes huge. I trained **three** models. Their name encoded in format `TRAIN SET + DEV SET` where `E` signifies data from the Ettenten corpus and `U` - from the UD corpus. For example, `E+E` means that the train set was taken from the Ettenten data and the dev set was also taken from the Ettenten data.
+
+Ettenten test:
+
+<table>
+    <thead>
+        <tr>
+            <th>Model</th>
+            <th>Words</th>
+            <th>Sents</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>E+E</td>
+            <td>99.33%</td>
+            <td>58.86%</td>
+        </tr>
+        <tr>
+            <td>E+U</td>
+            <td>99.35%</td>
+            <td>58.71%</td>
+        </tr>
+        <tr>
+            <td>U+E</td>
+            <td>95.88%</td>
+            <td>59.23%</td>
+        </tr>
+    </tbody>
+</table>
+
+
+UD test:
+
+<table>
+    <thead>
+        <tr>
+            <th>Model</th>
+            <th>Words</th>
+            <th>Sents</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>E+E</td>
+            <td>99.87%</td>
+            <td>85.21%</td>
+        </tr>
+        <tr>
+            <td>E+U</td>
+            <td>99.85%</td>
+            <td>84.36%</td>
+        </tr>
+        <tr>
+            <td>U+E</td>
+            <td>99.94%</td>
+            <td>89.29%</td>
+        </tr>
+    </tbody>
+</table>
