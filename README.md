@@ -22,7 +22,7 @@ The F1-score reported by the official UD evaluation script is shown in the table
     <tbody>
         <tr>
             <td>UDPipe</td>
-            <td>99.95%</td>
+            <td><b>99.95%</b></td>
             <td>91.72%	</td>
         </tr>
         <tr>
@@ -31,14 +31,14 @@ The F1-score reported by the official UD evaluation script is shown in the table
             <td>90.22%</td>
         </tr>
         <tr>
+            <td>Stanford NLP</td>
+            <td>99.91%</td>
+            <td><b>93.28%</b></td>
+        </tr>
+        <tr>
             <td>ESTNLTK</td>
             <td>99.12%</td>
             <td>85.56%</td>
-        </tr>
-        <tr>
-            <td>Stanford NLP</td>
-            <td>99.91%</td>
-            <td>93.28%</td>
         </tr>
     </tbody>
 </table>
@@ -63,17 +63,17 @@ Scores on the test set from the Ettenten corpus:
         <tr>
             <td>LSTM</td>
             <td>95.89%</td>
-            <td>88.59%</td>
-        </tr>
-        <tr>
-            <td>ESTNLTK</td>
-            <td>97.41%</td>
-            <td>54.00%</td>
+            <td><b>88.59%</b></td>
         </tr>
         <tr>
             <td>Stanford NLP</td>
             <td>96.37%</td>
             <td>48.56%</td>
+        </tr>
+        <tr>
+            <td>ESTNLTK</td>
+            <td><b>97.41%</b></td>
+            <td>54.00%</td>
         </tr>
     </tbody>
 </table>
