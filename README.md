@@ -70,6 +70,11 @@ Scores on the test set from the Ettenten corpus:
             <td>97.41%</td>
             <td>54.00%</td>
         </tr>
+        <tr>
+            <td>Stanford NLP</td>
+            <td>96.37%</td>
+            <td>48.56%</td>
+        </tr>
     </tbody>
 </table>
 
